@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Linktree</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background: #f4f4f4; }
+        .container { max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .profile img { width: 100px; border-radius: 50%; margin-bottom: 10px; }
+        .link { display: flex; align-items: center; justify-content: center; padding: 12px; margin: 10px 0; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; }
+        .link img { width: 24px; margin-right: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/100" alt="Profile">
+            <h2>Reyy Store</h2>
+        </div>
+        <a class="link" href="https://instagram.com/reyystore_887" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="IG"> Instagram (@reyystore_887)
+        </a>
+        <a class="link" href="https://wa.me/6282181444035" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA"> WhatsApp (+62 821-8144-4035)
+        </a>
+        <a class="link" href="https://t.me/6282181444035" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> Telegram (+62 821-8144-4035)
+        </a>
+    </div>
+</body>
+</html>
